@@ -1,14 +1,14 @@
 <?php
 include_once ROOT.'/models/Top.php';
-include_once ROOT.'/components/ViewItemById.php';
+include_once ROOT . '/components/View.php';
 
 class TopController {
     public function actionIndex()
     {
-        $topList = array();
-        $topList = Top::getTopList();
+        $newsList = array();
+        $newsList = Top::getTopList();
 
-        require_once(ROOT . '/views/top/index.php');
+        require_once(ROOT . '/views/news/index.php');
 
 
         return true;

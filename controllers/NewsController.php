@@ -1,5 +1,5 @@
 <?php
-include_once ROOT. '/components/ViewItemById.php';
+include_once ROOT . '/components/View.php';
 include_once ROOT. '/models/News.php';
 
 
