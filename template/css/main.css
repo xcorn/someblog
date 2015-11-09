@@ -1,0 +1,241 @@
+@font-face {
+    font-family: "SegoePrintRegular";
+    src: url("../fonts/SegoePrintRegular/SegoePrintRegular.eot");
+    src: url("../fonts/SegoePrintRegular/SegoePrintRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoePrintRegular/SegoePrintRegular.woff") format("woff"),
+    url("../fonts/SegoePrintRegular/SegoePrintRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "SegoeUIBold";
+    src: url("../fonts/SegoeUIBold/SegoeUIBold.eot");
+    src: url("../fonts/SegoeUIBold/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"),
+    url("../fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "SegoeUIRegular";
+    src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot");
+    src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+    url("../fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+	font-family: "SegoePrintBold";
+    src: url("../fonts/ufonts.com_segoe_print_bold_1_.eot");
+    src: url("../fonts/SegoePrintBold/ufonts.com_segoe_print_bold_1_.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoePrintBold/ufonts.com_segoe-print-bold.woff") format("woff"),
+    url("../fonts/ufonts.com_segoe-print-bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+	background: url("../images/main_bg.png") repeat;
+}
+a {
+	text-decoration: none;
+}
+.main_page {
+	width: 1000px;
+	height: 935px;
+	margin: 5px auto;
+}
+.banner {
+	height: 300px;
+	background: url("../images/bannerone.png");
+	position: relative;
+}
+/*                          Логотип с ссылкой на главную страницу           */
+.name {
+	position: relative;
+	top: 27px;
+	margin-left: 30px;
+	border: 3px solid #000;
+	width: 100px;
+	height: 80px;
+}
+.name a {
+	font-family: "SegoePrintBold";
+	font-size: 30px;
+	text-align: center;
+	color: #000;
+	display: block;
+	height: 80px;
+	line-height: 35px;
+}
+.sign {
+	position: relative;
+	margin: 0;
+	color: #fff;
+	font-size: 14px;
+	font-family: "SegoePrintBold";
+	border: 2px solid #fff;
+	width: 140px;
+	height: 60px;
+	left: 835px;
+	bottom:65px;
+	text-align: center;
+	line-height: 35px;
+}
+
+.sign a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.sign p {
+	position: relative;
+	bottom:19px;
+
+}
+/*                                Header                       */
+.header {
+	height: 100px;
+}
+.header a {
+	font-family: "SegoePrintBold";
+	color: #fff;
+	display: block;
+}
+/*                             Кпноки headera                   */
+.new {
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	background: #795439;
+	color: #fff;
+	line-height: 100px;
+	transition-delay: 0.1s;
+    transition-duration:0.3s;
+}
+.new:hover {
+	opacity: 0.7;
+}
+.top {
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	background: #ceaf89;
+	line-height: 100px;
+	margin-left: 200px;
+	margin-top: 0px;
+	transform: translateY(-100px);
+	-o-transform: translateY(-100px);
+	-webkit-transform: translateY(-100px);
+	-moz-transform: translateY(-100px);
+	-ms-transform: translateY(-100px);
+}
+.top:hover {
+	opacity: 0.7;
+}
+.random {
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	background: #3f2f2f;
+	line-height: 100px;
+	margin-left: 400px;
+	margin-top: 0px;
+	transform: translateY(-200px);
+	-o-transform: translateY(-200px);
+	-webkit-transform: translateY(-200px);
+	-moz-transform: translateY(-200px);
+	-ms-transform: translateY(-200px);
+}
+.random:hover {
+	opacity: 0.7;
+}
+.categories {
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	background: #f7c79e;
+	line-height: 100px;
+	margin-left: 600px;
+	transform: translateY(-300px);
+	-o-transform: translateY(-300px);
+	-webkit-transform: translateY(-300px);
+	-moz-transform: translateY(-300px);
+	-ms-transform: translateY(-300px);
+}
+.categories:hover {
+	opacity: 0.7;
+}
+.site_rules {
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	background: #d69162;
+	line-height: 100px;
+	margin-left: 800px;
+	transform: translateY(-400px);
+	-o-transform: translateY(-400px);
+	-webkit-transform: translateY(-400px);
+	-moz-transform: translateY(-400px);
+	-ms-transform: translateY(-400px);
+}
+.site_rules:hover {
+	opacity: 0.7;
+}
+/*                                    Окошко поиска                   */
+.search_bg {
+	height: 100px;
+	position: relative;
+	/*bottom: 400px;*/
+}
+.search {
+	width: 200px;
+	height: 50px;
+
+	margin-left: 785px;
+	margin-top: 25px;
+}
+input[name=search] {
+	margin-top: 10px;
+	border: 3px solid #000;
+	background: #f9f8ee;
+	width: 198px;
+	height: 48px;
+	text-align: center;
+	font-family: "SegoeUIRegular";
+	font-size: 14px;
+}
+input:active, textarea:active {outline: none;}
+/*                                        Контент                         */
+.content  {
+	
+ margin-top: 100px;
+}
+.content div {
+	text-align: center;
+}
+/*                               Разделительные линии контента                    */
+.top_sep {
+	height: 5px;
+	background: url("../images/sep_line.png") repeat-x left top;
+}
+.bot_sep {
+	height: 5px;
+	background: url("../images/bot_sep.png") repeat-x left top;
+	margin-top: 40px;
+	padding-top: 30px;
+}
+/*                                     footer                    */
+.footer {
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	transform: translateY(-15px);
+	-o-transform: translateY(-15px);
+	-webkit-transform: translateY(-15px);
+	-moz-transform: translateY(-15px);
+	-ms-transform: translateY(-15px);
+	font-family: "SegoePrintRegular";
+	font-size: 12px;
+}
+/*                                  Sign IN                         */
